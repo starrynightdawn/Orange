@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">零花钱</string>
+    <string name="action_settings">Settings</string>
+    <string name="home_fragmment">任务广场</string>
+    <string name="news_fragment_headline">我的消息</string>
+    <string name="person_headline">个人信息</string>
+    <string name="usernamehintcontent">用户名</string>
+    <string name="passwordhintcontent">密码</string>
+    <string name="loginbtcontent">登录</string>
+    <string name="home_fragment_item_content_headline">帮忙带快递</string>
+    <string name="home_listview_item_short_conent">帮忙到南苑的顺路速递取快递，我的手机号是123456</string>
+    <string name="home_listview_item_content_layout_username">叶知秋</string>
+    <string name="home_listview_item_short_cost">3元/任务</string>
+    <string name="home_listview_item_short_comletion_degree">待接单</string>
+    <string name="news_fragment_item_headline">匆忙的猫</string>
+    <string name="news_fragment_item_content">什么时候送达</string>
+    <string name="person_name_title">用户名：</string>
+    <string name="person_name_content">一颗橙子</string>
+    <string name="person_balance_title">余额：</string>
+    <string name="person_balance_content">0</string>
+    <string name="title_activity_home_fragment_list_view_item">HomeFragmentListViewItem</string>
+    <string name="home_item_show_place_title">地点：</string>
+    <string name="home_item_show_place_content">南苑</string>
+    <string name="home_item_show_deadline_title">限定完成时间：</string>
+    <string name="home_item_show_deadline_content">周六之前</string>
+    <string name="home_item_show_describe_title">任务描述：</string>
+    <string name="home_item_show_describe_content">帮忙到南苑的顺路速递取快递，我的手机号是123456</string>
+    <string name="home_item_show_level_title">任务级别和任务酬金：</string>
+    <string name="home_item_show_level_content">三级，总酬金6元</string>
+    <string name="home_item_show_demandNumber_title">可领取任务人数：</string>
+    <string name="home_item_show_demandNumber_content">1人</string>
+    <string name="home_item_show_degree_title">任务完成度：</string>
+    <string name="home_item_show_degree_content">待完成</string>
+    <string name="person_ability_title">专业能力：</string>
+    <string name="person_ability_content">四星</string>
+    <string name="person_credit_title">信用度：</string>
+    <string name="person_credit_content">10</string>
+    <string name="person_releseDegree_title">发布级别：</string>
+    <string name="person_releseDegree_content">80</string>
+    <string name="person_add_button">发布</string>
+    <string name="publish_edittext_hint">请输入信息</string>
+    <string name="publish_headline_title">标题：</string>
+    <string name="publish_button">提交</string>
+    <string name="registerbtcontent">注册</string>
+    <string name="browsebtcontent">浏览</string>
+    <string name="register_registerbt">注册</string>
+    <string-array name="regional_division_data">
+        <item>同社区</item>
+        <item>同城任务</item>
+    </string-array>
+    <string-array name="category_division_data">
+        <item>快递</item>
+        <item>IT</item>
+        <item>招聘</item>
+        <item>建筑</item>
+        <item>美工</item>
+        <item>百货</item>
+    </string-array>
+    <string name="title_activity_upload_information">UploadInformation</string>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:focusable="true"
+   android:focusableInTouchMode="true"
+   把EditText默认的行为截断了！ -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDCDCDCD"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+
+    >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/head_portrait"
+       />
+
+    <EditText
+        android:id="@+id/usernameet"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:background="@drawable/white"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:textColor="#6A6A6C"
+        android:hint="@string/usernamehintcontent"
+        android:textColorHint="#A8A8A8"
+        android:layout_below="@+id/imageView1"
+        android:layout_alignParentStart="true">
+    </EditText>
+
+    <EditText
+        android:id="@+id/passwordet"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:background="@drawable/white"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:textColor="#6A6A6C"
+        android:hint="@string/passwordhintcontent"
+        android:textColorHint="#A8A8A8"
+        android:layout_below="@+id/usernameet"
+        android:layout_alignParentStart="true">
+    </EditText>
+
+    <Button
+        android:id="@+id/loginbt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/passwordet"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/blue"
+        android:text="@string/loginbtcontent"
+        android:gravity="center"
+        android:textColor="#F9FAFB" />
+    <Button
+        android:id="@+id/registerbt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/passwordet"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/blue"
+        android:text="@string/registerbtcontent"
+        android:gravity="center"
+        android:textColor="#F9FAFB" />
+    <Button
+        android:id="@+id/browsebt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/passwordet"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="110dp"
+        android:background="#6b8e23"
+        android:text="@string/browsebtcontent"
+        android:gravity="center"
+        android:textColor="#F9FAFB" />
+
+
+
+    <Button
+        android:id="@+id/deletebt1"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignTop="@id/usernameet"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/delete"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/deletebt2"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignTop="@id/passwordet"
+        android:layout_marginTop="15dp"
+        android:layout_alignLeft="@+id/deletebt1"
+        android:background="@drawable/delete"
+        android:visibility="invisible" />
+
+</RelativeLayout>

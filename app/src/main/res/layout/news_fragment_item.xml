@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+<TextView
+    android:id="@+id/news_fragment_item_headline"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/news_fragment_item_headline"
+    android:layout_alignParentTop="true"
+    android:textSize="25dp"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/news_fragment_item_content"
+        android:text="@string/news_fragment_item_content"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

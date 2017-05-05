@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView android:id="@+id/home_listview_item_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_fragment_item_content_headline"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="#000000"></TextView>
+    <LinearLayout
+        android:id="@+id/home_listview_item_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/home_listview_item_content_layout_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/listview_item_image1"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/home_listview_item_content_layout_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/home_listview_item_content_layout_username"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/home_item_show_left_LinearLayout"
+            android:orientation="vertical"
+           >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_item_show_place_title"
+                android:text="@string/home_item_show_place_title"
+                android:layout_gravity="right"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_item_show_place_deadline"
+                android:text="@string/home_item_show_deadline_title"
+                android:layout_gravity="right"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:id="@+id/home_item_show_describe_title"
+                android:text="@string/home_item_show_describe_title"
+                android:layout_gravity="right"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_item_show_level_title"
+                android:text="@string/home_item_show_level_title"
+                android:layout_gravity="right"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_item_show_demandNumber_title"
+                android:text="@string/home_item_show_demandNumber_title"
+                android:layout_gravity="right"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_item_show_degree_title"
+                android:text="@string/home_item_show_degree_title"
+                android:layout_gravity="right"
+                android:textColor="#000000"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/home_item_show_right_LinearLayout"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_item_show_place_content"
+                android:text="@string/home_item_show_place_content"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_item_show_place_deadline_content"
+                android:text="@string/home_item_show_deadline_content"/>
+
+            <TextView
+                android:id="@+id/home_item_show_describe_content"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="@string/home_item_show_describe_content" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_item_show_level_content"
+                android:text="@string/home_item_show_level_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_item_show_demandNumber_content"
+                android:text="@string/home_item_show_demandNumber_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_item_show_degree_content"
+                android:text="@string/home_item_show_degree_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
